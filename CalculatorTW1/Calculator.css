@@ -1,0 +1,120 @@
+﻿.calculator {
+    display: grid;
+    grid-template-areas:
+        'display display display display'
+        'sqr log ln nexp'
+        'seven eight nine divide'
+        'four five six multiply'
+        'one two three subtract'
+        'pm zero dot add'
+        'clear clear equals equals';
+    gap: 10px;
+    width: 200px;
+    margin: auto;
+}
+.calculator-title{
+    text-align:center;
+  margin-left:100px
+}
+.calculator button, .calculator input {
+    padding: 20px;
+    font-size: 18px;
+}
+
+.display {
+    grid-area: display;
+    text-align: right;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.sqr {
+    grid-area: sqr;
+}
+
+.log {
+    grid-area: log;
+}
+
+.ln {
+    grid-area: ln;
+}
+
+.nexp {
+    grid-area: nexp;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.six {
+    grid-area: six;
+}
+
+.multiply {
+    grid-area: multiply;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.subtract {
+    grid-area: subtract;
+}
+
+.pm{
+    grid-area:pm;
+}
+.zero {
+    grid-area: zero;
+}
+
+.dot {
+    grid-area: dot;
+}
+
+.add {
+    grid-area: add;
+}
+
+.clear {
+    grid-area: clear;
+    background-color: red;
+    color: white;
+}
+
+.equals {
+    grid-area: equals;
+    background-color: blue;
+    color: white;
+}
